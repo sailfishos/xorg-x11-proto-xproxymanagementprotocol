@@ -1,0 +1,14 @@
+Name: xorg-x11-proto-xproxymanagementprotocol
+Summary: X.Org X11 Protocol xproxymanagementprotocol
+Version: 1.0.2
+Release: 0
+Group: Development/System
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/xproxymanagementprotocol-%{version}.tar.bz2
+
+Provides: xproxymanagementprotocol
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}
